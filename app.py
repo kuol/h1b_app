@@ -89,7 +89,7 @@ df_hq_ratio = get_df_hq_ratio(df_hq)
 # ====================================
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets = external_stylesheets)
-
+server = app.server
 
 # ====================================
 # Define app layout
